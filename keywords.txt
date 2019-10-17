@@ -1,0 +1,40 @@
+#	####################################################
+#	СИНТАКСИЧЕСКАЯ РАСКРАСКА ДЛЯ БИБИЛИОТЕКИ:
+#	iarduino_I2C_Encoder
+#	####################################################
+#	ТИПЫ ДАННЫХ:							   (KEYWORD1)
+	iarduino_I2C_Encoder	KEYWORD1
+#	####################################################
+#	МЕТОДЫ И ФУНКЦИИ:						   (KEYWORD2)
+	begin	KEYWORD2
+	changeAddress	KEYWORD2
+	reset	KEYWORD2
+	getAddress	KEYWORD2
+	getVersion	KEYWORD2
+	getButton	KEYWORD2
+	getEncoder	KEYWORD2
+	getPosition	KEYWORD2
+	resPosition	KEYWORD2
+	setPosSettings	KEYWORD2
+	setPinOut	KEYWORD2
+	
+#	####################################################
+#	КОНСТАНТЫ:								   (LITERAL1)
+	KEY_PUSHED	LITERAL1
+	KEY_RELEASED	LITERAL1
+	KEY_PRESSED	LITERAL1
+	KEY_TRIGGER	LITERAL1
+	KEY_CHANGED	LITERAL1
+	KEY_TIME_PRESSED	LITERAL1
+	KEY_HOLD_05	LITERAL1
+	KEY_HOLD_10	LITERAL1
+	KEY_HOLD_20	LITERAL1
+	ENC_TURN	LITERAL1
+	ENC_TURN_LEFT	LITERAL1
+	ENC_TURN_RIGHT	LITERAL1
+	ENC_PIN_MODE_OFF	LITERAL1
+	ENC_PIN_MODE_KEY	LITERAL1
+	ENC_PIN_MODE_TRG	LITERAL1
+	ENC_PIN_MODE_PWM	LITERAL1
+	ENC_PIN_MODE_PWM_LOG	LITERAL1
+	ENC_PIN_MODE_DAC	LITERAL1

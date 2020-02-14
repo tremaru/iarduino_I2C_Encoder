@@ -11,12 +11,18 @@
 	reset	KEYWORD2
 	getAddress	KEYWORD2
 	getVersion	KEYWORD2
+	getPullI2C	KEYWORD2
+	setPullI2C	KEYWORD2
 	getButton	KEYWORD2
 	getEncoder	KEYWORD2
 	getPosition	KEYWORD2
 	resPosition	KEYWORD2
 	setPosSettings	KEYWORD2
 	setPinOut	KEYWORD2
+	invEncoder	KEYWORD2
+	setServoLimit	KEYWORD2
+	getServoWidth	KEYWORD2
+
 	
 #	####################################################
 #	КОНСТАНТЫ:								   (LITERAL1)
@@ -38,3 +44,4 @@
 	ENC_PIN_MODE_PWM	LITERAL1
 	ENC_PIN_MODE_PWM_LOG	LITERAL1
 	ENC_PIN_MODE_DAC	LITERAL1
+	ENC_PIN_MODE_SER	LITERAL1

@@ -1,5 +1,5 @@
 //	Библиотека для работы с Trema-модулем энкодер-потенциометр, I2C-flash для Arduino: https://iarduino.ru/shop/Expansion-payments/enkoder-potenciometr-i2c.html
-//  Версия: 1.1.2
+//  Версия: 1.1.3
 //  Последнюю версию библиотеки Вы можете скачать по ссылке: https://iarduino.ru/file/516.html
 //  Подробное описание функций бибилиотеки доступно по ссылке: https://wiki.iarduino.ru/page/potentiometer-i2c/
 //  Библиотека является собственностью интернет магазина iarduino.ru и может свободно использоваться и распространяться!

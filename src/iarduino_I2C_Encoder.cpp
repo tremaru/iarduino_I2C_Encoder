@@ -137,7 +137,7 @@ uint16_t iarduino_I2C_Encoder::getButton	(uint8_t type){																		//	П�
 					case KEY_TIME_PRESSED :	f=(val_REG_ENC_KEY & ENC_KEY_PRESSED )? (uint16_t)data[1]*100:0;			break;	//	Возвращаемым значениям является время удержания кнопки в миллисекундах.
 				}																												//
 			//	Устранение повторных срабатываний флагов:																		//
-				if( type == KEY_PUSHED | type == KEY_RELEASED | type == KEY_CHANGED ){delay(1);}								//	Флагам ENC_KEY_PUSHED, ENC_KEY_RELEASED и ENC_KEY_CHANGED может потребоваться время для сброса в регистре REG_ENC_KEY.
+				if( (type==KEY_PUSHED) | (type==KEY_RELEASED) | (type==KEY_CHANGED) ){delay(1);}								//	Флагам ENC_KEY_PUSHED, ENC_KEY_RELEASED и ENC_KEY_CHANGED может потребоваться время для сброса в регистре REG_ENC_KEY.
 			}																													//
 		//	Возвращаем результат:																								//
 			return f;																											//
